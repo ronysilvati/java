@@ -20,4 +20,8 @@ public class Lancamentos {
 		
 		return query.getResultList();
 	}
+	
+	public void adicionar(Lancamento lancamento) {
+		this.manager.persist(lancamento);
+	}
 }
