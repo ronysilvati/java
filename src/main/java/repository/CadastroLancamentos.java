@@ -17,6 +17,6 @@ public class CadastroLancamentos {
 			throw new NegocioException("Data de pagamento não pode ser uma data futura");
 		}
 		
-		this.lancamentos.adicionar(lancamento);
+		this.lancamentos.guardar(lancamento);
 	}
 }

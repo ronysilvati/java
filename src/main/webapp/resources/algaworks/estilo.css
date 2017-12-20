@@ -33,3 +33,9 @@ padding: 0px;
 margin: 0px;
 margin-bottom: 10px
 }
+
+.ajax-status {
+position: fixed;
+top:20%;
+left:45%;
+}
